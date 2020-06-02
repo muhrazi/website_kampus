@@ -55,7 +55,7 @@
             
             <div class="sidebar-menu">
                 <ul class="sidebar">
-                    <li><a href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
+                    <li><a href="home.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a></li>
                     <li><a href="daftar-mahasiswa.html"><i class="fas fa-user-graduate"></i>Daftar Mahasiswa</a></li>
                     <li><a href="daftar-dosen.html"><i class="fas fa-user-tie"></i>Daftar Dosen</a></li>
                     <li><a href="daftar-pegawai.html"><i class="fas fa-users"></i>Daftar Pegawai</a></li>
@@ -82,73 +82,93 @@
 
         <div class="main-content">
             <div class="dashboard">
-                <h3><i class="fas fa-users"></i>DAFTAR PEGAWAI</h3>
+                <h3><i class="fab fa-telegram-plane"></i>Nilai Mahasiswa</h3>
             </div>
           
+            <div class="tombol">
 
-            <div class="daftar">
-            <form>
+              <button type="button" class="btn btn-outline-success">+ Input Nilai</button><br>
+            </div>
             
-                <div class="form-group form-fakultas">
-                    <label for="exampleFormControlSelect1 ">Pilih Fakultas</label>
-                    <select class="form-control " id="exampleFormControlSelect1">
-                        <option>Fakultas Teknik Sipil</option>
-                        <option>Fakultas Teknik Informatika</option>
-                        <option>Fakultas Teknik Mesin</option>
-                        <option>Fakultas Teknik Ekonomi</option>
-                        <option>Fakultas Teknik Hukum</option>
-                        
-                    </select>
-                </div>
+            <div class="daftar">
 
-               
+              
+              <form>
+              
+                          
+                  <table class="table">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">No</th>
+                          <th scope="col">NIM</th>
+                          <th scope="col">Nama</th>
+                          <th scope="col">Mata Kuliah</th>
+                          <th scope="col">Dosen</th>
+                          <th scope="col">Nilai</th>
+                          <th scope="col">Kelola</th>
+                        
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>0655656556</td>
+                          <td>Muhammad Razi</td>
+                          <td>Pemograman Web</td>
+                          <td>Robertus saksono</td>
+                          <td>A</td>
+                          <td><button type="button" class="btn btn-warning"><i class="fas fa-trash-alt"></i>  Edit</button> <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>  Delete</button></td>
 
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>0655656589</td>
+                          <td>Nani Wijaya</td>
+                          <td>Pemograman Web</td>
+                          <td>Robertus saksono</td>
+                          <td>B</td>
+                          <td><button type="button" class="btn btn-warning"><i class="fas fa-trash-alt"></i>  Edit</button> <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>  Delete</button></td>
 
-                <table class="table">
-                    <thead class="thead-dark">
-                      <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Nama</th>
-                        <th scope="col">NIP</th>
-                       
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Aldiansyah</td>
-                        <td>0123456789</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>0655656598</td>
+                          <td>Nancy aul</td>
+                          <td>Pemograman Web</td>
+                          <td>Robertus saksono</td>
+                          <td>A</td>
+                          <td><button type="button" class="btn btn-warning"><i class="fas fa-trash-alt"></i>  Edit</button> <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>  Delete</button></td>
+
                         
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Budi Setiawan </td>
-                        <td>0129845687</td>
-                        
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Cita kirana</td>
-                        <td>98456455</td>
-                       
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Devara Alfisyah</td>
-                        <td>989845845</td>
-                        
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>Dimas Prayoga</td>
-                        <td>4568478548</td>
-                        
-                      </tr>
-                    </tbody>
-                  </table>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>0655656555</td>
+                          <td>Pangeran Pengkuh</td>
+                          <td>Pemograman Web</td>
+                          <td>Robertus saksono</td>
+                          <td>B</td>
+                          <td><button type="button" class="btn btn-warning"><i class="fas fa-trash-alt"></i>  Edit</button> <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>  Delete</button></td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td>0655656957</td>
+                          <td>Rosalina</td>
+                          <td>Pemograman Web</td>
+                          <td>Robertus saksono</td>
+                          <td>B</td>
+                          <td><button type="button" class="btn btn-warning"><i class="fas fa-trash-alt"></i>  Edit</button> <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>  Delete</button></td>
+
+                          
+                        </tr>
+                      </tbody>
+                    </table>
+                    
                   
-                
-          </form>
+            </form>
 
 
            </div>
